@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  api:
+    build:
+      context: server
+      dockerfile: Dockerfile
+    ports:
+      - "54321:54321"
+    environment:
+      - MONGO_USER=${MONGO_USER}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_DB=${MONGO_DB}
+      - JWT_SECRET=${JWT_SECRET}
+
