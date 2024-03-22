@@ -21,11 +21,11 @@ const HomePage = () => {
                         <div className='lg:flex-grow lg:w-1/2 pr-0 lg:pr-24 flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center text-center'>
                             <h1 className='title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900 dark:text-white'>Stocker</h1>
                             <p className='title-font sm:text-2xl text-xl mb-4 text-gray-700 dark:text-gray-300 whitespace-nowrap'>
-                                A dummy stock trading platform
+                                A stock trading platform
                             </p>
                             <p className='mb-8 sm:text-sm lg:text-lg leading-relaxed dark:text-gray-300'>
-                                Built as a portfolio project. Not meant to be a real application. <br />
-                                Stock price fluctuations are randomly generated but real data is fetched peridoically.
+                                Stocker is a dummy stock trading platform, developed as a portfolio project. It is not intended to be a real application. While stock price fluctuations are randomly generated within the platform, real data is fetched periodically to provide a realistic trading environment.
+
                                 <br />
                                 <br />
                                 <span className='font-bold'>No real money is involved.</span>
@@ -65,8 +65,7 @@ const HomePage = () => {
                         <h1 className='title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-900 dark:text-white'>What is Stocker?</h1>
 
                         <p className='mb-8 text-md lg:text-lg leading-relaxed dark:text-gray-300'>
-                            Stocker is a full-stack portfolio project. The technologies used were the MERN stack, along with TypeScript, TailwindCSS, SASS,
-                            Redux, Socket.io, JWT, and Apollo GraphQL.
+                        Stocker is a real-time stock trading web application developed by Aman, Dhiraj, Lakshya, and Harsh. It utilizes the MERN stack (MongoDB, Express.js, React.js, Node.js) along with TypeScript, TailwindCSS, SASS, Redux, Socket.io, JWT, and Apollo GraphQL. Stocker allows users to trade stocks in real-time, providing features such as live stock updates, user authentication, and a responsive user interface for seamless trading experiences.
                         </p>
                         <div className='flex justify-center flex-nowrap'>
                             <a
