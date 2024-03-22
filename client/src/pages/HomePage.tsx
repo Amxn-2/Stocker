@@ -62,10 +62,10 @@ const HomePage = () => {
             <section className='text-gray-600 body-font p-10'>
                 <div className='container mx-auto flex md:px-16 pb-24 lg:flex-row flex-col items-center'>
                     <div className='lg:flex-grow lg:w-1/2 pr-0 lg:pr-24 flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center text-center'>
-                        <h1 className='title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-900 dark:text-white'>What is Stocks.io?</h1>
+                        <h1 className='title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-900 dark:text-white'>What is Stocker?</h1>
 
                         <p className='mb-8 text-md lg:text-lg leading-relaxed dark:text-gray-300'>
-                            Stocks.io is a full-stack portfolio project. The technologies used were the MERN stack, along with TypeScript, TailwindCSS, SASS,
+                            Stocker is a full-stack portfolio project. The technologies used were the MERN stack, along with TypeScript, TailwindCSS, SASS,
                             Redux, Socket.io, JWT, and Apollo GraphQL.
                         </p>
                         <div className='flex justify-center flex-nowrap'>
