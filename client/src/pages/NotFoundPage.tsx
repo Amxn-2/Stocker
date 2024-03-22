@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = ({ underConstruction = false }) => {
     useEffect(() => {
-        document.title = 'Not Found | Stocks.io';
+        document.title = 'Not Found | Stocker';
     }, []);
 
     return (

@@ -23,7 +23,7 @@ const Auth = () => {
     const location = useLocation();
 
     useEffect(() => {
-        document.title = 'Authorization | Stocks.io';
+        document.title = 'Authorization | Stocker';
     }, []);
 
     const switchMode = () => {

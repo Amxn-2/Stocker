@@ -170,7 +170,7 @@ export default function StockPage({ ticker }: Props) {
                     </div>
                     {ownedStock && (
                         <div className='dark:bg-darkCard p-5 pb-7 bg-gray-100 rounded-xl flex flex-col justify-between'>
-                            <h4 className='text-center mb-4 text-gray-800 whitespace-nowrap dark:text-gray-200 text-lg'>Stock Owned</h4>
+                            <h4 className='text-center mb-4 text-gray-800 whitespace-nowrap dark:text-gray-200 text-lg'>Stocks Owned</h4>
                             <div className='px-6 text-md flex flex-col space-y-2'>
                                 <div className='flex items-center text-gray-700 whitespace-nowrap dark:text-gray-200'>
                                     <h1 className='px-2 w-full'>

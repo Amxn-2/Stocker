@@ -12,7 +12,7 @@ export default function MarketPage() {
     };
 
     useEffect(() => {
-        document.title = 'Market | Stocks.io';
+        document.title = 'Market | Stocker';
     }, []);
 
     useEffect(() => {
